@@ -19,21 +19,6 @@ export default class RouletteGun extends Component {
         spinningTheChamber: false,
     }*/
 
-    /*
-    componentDidMount() {
-        console.log('componentDidMount');
-        this.interval = setInterval(() => {
-            console.log('setInterval');
-            //need to use set state method to alert react that things are changing
-            //setState re-triggers render every 1000 milliseconds
-            const newCount = this.state.count +1
-            this.setState ({
-                count: newCount
-            })
-        }, 2000)
-    }
-    */
-
     componentWillUnmount() {
         clearTimeout(this.timeout)
     }
