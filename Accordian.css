@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    /*normalize margins and padding*/
+    margin: 0;
+    padding: 0;
+}
+    
+body, html {
+    font-family: 'Karla', sans-serif; 
+    color: black;
+    text-align: center;
+    /*for sticky footer*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
+main {
+    /*sets line spacing to desired range of 120-150%*/
+    line-height: 150%;
+}
+
+.Accordian {
+    list-style: none;
+}

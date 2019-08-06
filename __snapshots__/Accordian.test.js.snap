@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component only opens one section at a time 1`] = `
+<ul
+  className="Accordian"
+>
+  <li
+    className="Accordian_item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      First title
+    </button>
+  </li>
+  <li
+    className="Accordian_item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Second title
+    </button>
+  </li>
+  <li
+    className="Accordian_item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Third title
+    </button>
+    <p>
+      Third Content
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens any clicked section 1`] = `
+<ul
+  className="Accordian"
+>
+  <li
+    className="Accordian_item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      First title
+    </button>
+  </li>
+  <li
+    className="Accordian_item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Second title
+    </button>
+    <p>
+      Second Content
+    </p>
+  </li>
+  <li
+    className="Accordian_item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Third title
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty given no Accordian without errors 1`] = `
+<ul
+  className="Accordian"
+/>
+`;
+
+exports[`Accordion Component renders no sections as active by default 1`] = `
+<ul
+  className="Accordian"
+>
+  <li
+    className="Accordian_item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      First title
+    </button>
+  </li>
+  <li
+    className="Accordian_item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Second title
+    </button>
+  </li>
+  <li
+    className="Accordian_item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Third title
+    </button>
+  </li>
+</ul>
+`;
